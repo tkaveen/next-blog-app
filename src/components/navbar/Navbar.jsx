@@ -1,9 +1,9 @@
-import React from 'react'
-import styles from './navbar.module.css'
-import Image from 'next/image'
-import Link from 'next/link'
-import ThemeToggle from '../themeToggle/ThemeToggle'
-import AuthLinks from '../authLinks/AuthLinks'
+import React from "react";
+import styles from "./navbar.module.css";
+import Image from "next/image";
+import Link from "next/link";
+import ThemeToggle from "../themeToggle/ThemeToggle";
+import AuthLinks from "../authLinks/AuthLinks";
 
 const Navbar = () => {
     return (
@@ -13,14 +13,14 @@ const Navbar = () => {
             </div> */}
             <div className={styles.logo}>Kevin Linro</div>
             <div className={styles.links}>
-                <ThemeToggle/>
+                <ThemeToggle />
                 <Link href="/">Homepage</Link>
                 <Link href="/">Contact</Link>
                 <Link href="/">About</Link>
-                <AuthLinks/>
+                <AuthLinks />
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;
